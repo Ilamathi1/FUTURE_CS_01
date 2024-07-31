@@ -33,12 +33,12 @@ This project demonstrates the implementation of Two-Factor Authentication (2FA) 
 
 ### Directory Structure
 
-**app.py** - Main application file containing Flask routes and logic.
-**models.py** - Script for resetting the database.
-**static/** - Directory for static files such as CSS and images.
-**style.css** - Stylesheet for the application.
-**templates/** - Directory for HTML templates.
-**login.html** - Template for the login page.
-**register.html** - Template for the registration page.
-**requirements.txt** - List of Python package dependencies.
-**README.md** - This file.
+-**app.py** - Main application file containing Flask routes and logic.
+-**models.py** - Script for resetting the database.
+-**static/** - Directory for static files such as CSS and images.
+-**style.css** - Stylesheet for the application.
+-**templates/** - Directory for HTML templates.
+-**login.html** - Template for the login page.
+-**register.html** - Template for the registration page.
+-**requirements.txt** - List of Python package dependencies.
+-**README.md** - This file.
