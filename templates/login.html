@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Login</h1>
+      <form method="post">
+        Username: <input type="text" name="username" /><br />
+        Password: <input type="password" name="password" /><br />
+        TOTP: <input type="text" name="totp" /><br />
+        <input type="submit" value="Login" />
+      </form>
+    </div>
+  </body>
+</html>
